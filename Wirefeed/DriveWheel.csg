@@ -1,0 +1,758 @@
+group() {
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group();
+	group() {
+		group();
+		union() {
+			group();
+			difference() {
+				group() {
+					difference() {
+						cylinder($fn = 80, $fa = 12, $fs = 2, h = 10, r1 = 45.45, r2 = 45.45, center = true);
+						cylinder($fn = 80, $fa = 12, $fs = 2, h = 11, r1 = 35.45, r2 = 35.45, center = true);
+					}
+				}
+				group();
+				group() {
+					group();
+				}
+			}
+			multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, -4], [0, 0, 0, 1]]) {
+				difference() {
+					union() {
+						group() {
+							group() {
+								group() {
+									group() {
+										group() {
+											group() {
+												group() {
+													group() {
+														group() {
+															group() {
+																group();
+																intersection() {
+																	cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 35.45, r2 = 35.45, center = true);
+																	group() {
+																		multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[0.707107, -0.707107, 0, 0], [0.707107, 0.707107, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[6.12323e-17, -1, 0, 0], [1, 6.12323e-17, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[-0.707107, -0.707107, 0, 0], [0.707107, -0.707107, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[-1, -1.22465e-16, 0, 0], [1.22465e-16, -1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[-0.707107, 0.707107, 0, 0], [-0.707107, -0.707107, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[-1.83697e-16, 1, 0, 0], [-1, -1.83697e-16, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																		multmatrix([[0.707107, 0.707107, 0, 0], [-0.707107, 0.707107, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																			group() {
+																				render(convexity = 1) {
+																					intersection() {
+																						multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																							difference() {
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 19.6944, r2 = 19.6944, center = true);
+																								cylinder($fn = 80, $fa = 12, $fs = 2, h = 3, r1 = 15.6944, r2 = 15.6944, center = true);
+																							}
+																						}
+																						group() {
+																							multmatrix([[1, 0, 0, -19.6944], [0, 1, 0, 9.84722], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																								cube(size = [39.3889, 19.6944, 3], center = true);
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						group() {
+							cylinder($fn = 80, $fa = 12, $fs = 2, h = 2, r1 = 17.5, r2 = 17.5, center = true);
+						}
+					}
+					group();
+					group();
+					group() {
+						multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 7], [0, 0, 0, 1]]) {
+							cylinder($fn = 80, $fa = 12, $fs = 2, h = 12, r1 = 15, r2 = 15, center = true);
+						}
+					}
+					group();
+				}
+				group() {
+					multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 7], [0, 0, 0, 1]]) {
+						group() {
+							union() {
+								difference() {
+									union() {
+										difference() {
+											union() {
+												cylinder($fn = 80, $fa = 12, $fs = 2, h = 12, r1 = 15, r2 = 15, center = true);
+												rotate_extrude(convexity = 1, $fn = 80, $fa = 12, $fs = 2) {
+													multmatrix([[1, 0, 0, 15], [0, 1, 0, -6], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+														polygon(points = [[0, 0], [0, 2], [2, 0]], paths = undef, convexity = 1);
+													}
+												}
+											}
+											rotate_extrude(convexity = 1, $fn = 80, $fa = 12, $fs = 2) {
+												multmatrix([[1, 0, 0, 15], [0, 1, 0, 6], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+													polygon(points = [[0.5, 0.5], [-2.5, 0.5], [0.5, -2.5]], paths = undef, convexity = 1);
+												}
+											}
+											group() {
+												rotate_extrude(convexity = 1, $fn = 80, $fa = 12, $fs = 2) {
+													multmatrix([[1, 0, 0, 17], [0, 1, 0, -4], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+														circle($fn = 80, $fa = 12, $fs = 2, r = 2);
+													}
+												}
+											}
+										}
+										group() {
+											rotate_extrude(convexity = 1, $fn = 80, $fa = 12, $fs = 2) {
+												multmatrix([[1, 0, 0, 13], [0, 1, 0, 4], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+													circle($fn = 80, $fa = 12, $fs = 2, r = 2);
+												}
+											}
+										}
+									}
+									difference() {
+										cylinder($fn = 80, $fa = 12, $fs = 2, h = 13, r1 = 2.9, r2 = 2.9, center = true);
+										multmatrix([[1, 0, 0, 3.4], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											cube(size = [1, 5.8, 14], center = true);
+										}
+									}
+									group() {
+										multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, 7.95], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[2.22045e-16, 0, -1, 0], [0, 1, 0, 0], [1, 0, 2.22045e-16, 0], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															union() {
+																group() {
+																	group() {
+																		group() {
+																			multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																				cube(size = [3.52184, 6.1, 3.1], center = true);
+																			}
+																			multmatrix([[-0.5, -0.866025, 0, 0], [0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																				cube(size = [3.52184, 6.1, 3.1], center = true);
+																			}
+																			multmatrix([[-0.5, 0.866025, 0, 0], [-0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																				cube(size = [3.52184, 6.1, 3.1], center = true);
+																			}
+																		}
+																	}
+																}
+																group() {
+																	multmatrix([[1, 0, 0, 3.5], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																		cube(size = [7, 6.1, 3.1], center = true);
+																	}
+																}
+																multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, -16.65], [0, 0, 0, 1]]) {
+																	cylinder($fn = 15, $fa = 12, $fs = 2, h = 23.25, r1 = 1.8, r2 = 1.8, center = false);
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-1, -1.22465e-16, 0, 0], [1.22465e-16, -1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, 7.95], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[2.22045e-16, 0, -1, 0], [0, 1, 0, 0], [1, 0, 2.22045e-16, 0], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															union() {
+																group() {
+																	group() {
+																		group() {
+																			multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																				cube(size = [3.52184, 6.1, 3.1], center = true);
+																			}
+																			multmatrix([[-0.5, -0.866025, 0, 0], [0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																				cube(size = [3.52184, 6.1, 3.1], center = true);
+																			}
+																			multmatrix([[-0.5, 0.866025, 0, 0], [-0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																				cube(size = [3.52184, 6.1, 3.1], center = true);
+																			}
+																		}
+																	}
+																}
+																group() {
+																	multmatrix([[1, 0, 0, 3.5], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																		cube(size = [7, 6.1, 3.1], center = true);
+																	}
+																}
+																multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, -16.65], [0, 0, 0, 1]]) {
+																	cylinder($fn = 15, $fa = 12, $fs = 2, h = 23.25, r1 = 1.8, r2 = 1.8, center = false);
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			group() {
+				group() {
+					group() {
+						group() {
+							group() {
+								multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+									group() {
+										multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[0.913545, -0.406737, 0, 0], [0.406737, 0.913545, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[0.669131, -0.743145, 0, 0], [0.743145, 0.669131, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[0.309017, -0.951057, 0, 0], [0.951057, 0.309017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.104528, -0.994522, 0, 0], [0.994522, -0.104528, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.5, -0.866025, 0, 0], [0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.809017, -0.587785, 0, 0], [0.587785, -0.809017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.978148, -0.207912, 0, 0], [0.207912, -0.978148, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.978148, 0.207912, 0, 0], [-0.207912, -0.978148, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.809017, 0.587785, 0, 0], [-0.587785, -0.809017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.5, 0.866025, 0, 0], [-0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[-0.104528, 0.994522, 0, 0], [-0.994522, -0.104528, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[0.309017, 0.951057, 0, 0], [-0.951057, 0.309017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[0.669131, 0.743145, 0, 0], [-0.743145, 0.669131, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+										multmatrix([[0.913545, 0.406737, 0, 0], [-0.406737, 0.913545, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+											multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+												group() {
+													render(convexity = 1) {
+														group() {
+															multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																cube(size = [2.011, 2, 2], center = true);
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							multmatrix([[0.978148, 0.207912, 2.54618e-17, 0], [0.207912, -0.978148, -1.19789e-16, 0], [-1.54074e-33, 1.22465e-16, -1, 0], [0, 0, 0, 1]]) {
+								group() {
+									multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+										group() {
+											multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[0.913545, -0.406737, 0, 0], [0.406737, 0.913545, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[0.669131, -0.743145, 0, 0], [0.743145, 0.669131, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[0.309017, -0.951057, 0, 0], [0.951057, 0.309017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.104528, -0.994522, 0, 0], [0.994522, -0.104528, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.5, -0.866025, 0, 0], [0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.809017, -0.587785, 0, 0], [0.587785, -0.809017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.978148, -0.207912, 0, 0], [0.207912, -0.978148, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.978148, 0.207912, 0, 0], [-0.207912, -0.978148, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.809017, 0.587785, 0, 0], [-0.587785, -0.809017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.5, 0.866025, 0, 0], [-0.866025, -0.5, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[-0.104528, 0.994522, 0, 0], [-0.994522, -0.104528, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[0.309017, 0.951057, 0, 0], [-0.951057, 0.309017, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[0.669131, 0.743145, 0, 0], [-0.743145, 0.669131, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+											multmatrix([[0.913545, 0.406737, 0, 0], [-0.406737, 0.913545, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+												multmatrix([[1, 0, 0, nan], [0, 1, 0, nan], [0, 0, 1, nan], [0, 0, 0, 1]]) {
+													group() {
+														render(convexity = 1) {
+															group() {
+																multmatrix([[1, 0, 0, 0.994499], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+																	cube(size = [2.011, 2, 2], center = true);
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
